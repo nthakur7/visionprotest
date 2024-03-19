@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8CEA971B2BA13E18007F0C17 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 8CEA971A2BA13E18007F0C17 /* RealityKitContent */; };
 		8CEA971D2BA13E18007F0C17 /* TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA971C2BA13E18007F0C17 /* TemplateApp.swift */; };
-		8CEA971F2BA13E18007F0C17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA971E2BA13E18007F0C17 /* ContentView.swift */; };
+		8CEA971F2BA13E18007F0C17 /* ImmersiveControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA971E2BA13E18007F0C17 /* ImmersiveControlView.swift */; };
 		8CEA97212BA13E18007F0C17 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA97202BA13E18007F0C17 /* ImmersiveView.swift */; };
 		8CEA97232BA13E1A007F0C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEA97222BA13E1A007F0C17 /* Assets.xcassets */; };
 		8CEA97262BA13E1A007F0C17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEA97252BA13E1A007F0C17 /* Preview Assets.xcassets */; };
@@ -30,7 +30,7 @@
 		8CEA97152BA13E18007F0C17 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEA97192BA13E18007F0C17 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		8CEA971C2BA13E18007F0C17 /* TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateApp.swift; sourceTree = "<group>"; };
-		8CEA971E2BA13E18007F0C17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CEA971E2BA13E18007F0C17 /* ImmersiveControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveControlView.swift; sourceTree = "<group>"; };
 		8CEA97202BA13E18007F0C17 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		8CEA97222BA13E1A007F0C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEA97252BA13E1A007F0C17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				8CEA971C2BA13E18007F0C17 /* TemplateApp.swift */,
-				8CEA971E2BA13E18007F0C17 /* ContentView.swift */,
+				8CEA971E2BA13E18007F0C17 /* ImmersiveControlView.swift */,
 				8CEA97202BA13E18007F0C17 /* ImmersiveView.swift */,
 				8CEA97222BA13E1A007F0C17 /* Assets.xcassets */,
 				8CEA97272BA13E1A007F0C17 /* Info.plist */,
@@ -183,6 +183,8 @@
 				Base,
 			);
 			mainGroup = 8CEA970C2BA13E18007F0C17;
+			packageReferences = (
+			);
 			productRefGroup = 8CEA97162BA13E18007F0C17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -217,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEA971F2BA13E18007F0C17 /* ContentView.swift in Sources */,
+				8CEA971F2BA13E18007F0C17 /* ImmersiveControlView.swift in Sources */,
 				8CEA971D2BA13E18007F0C17 /* TemplateApp.swift in Sources */,
 				8CEA97212BA13E18007F0C17 /* ImmersiveView.swift in Sources */,
 			);
